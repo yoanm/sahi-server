@@ -1,0 +1,12 @@
+<browserTypes>
+	<browserType>
+  		<name>phantomjs</name>
+  		<displayName>PhantomJS</displayName>
+  		<icon>phantomjs.png</icon>
+  		<path>/usr/local/bin/phantomjs</path>
+  		<options>--proxy=localhost:9999 /home/vagrant/phantom-sahi.js</options>
+  		<processName>phantomjs</processName>
+  		<capacity>100</capacity>
+  		<useSystemProxy>false</useSystemProxy>
+	</browserType>
+</browserTypes>
