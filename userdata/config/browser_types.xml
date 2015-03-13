@@ -4,7 +4,7 @@
   		<displayName>PhantomJS</displayName>
   		<icon>phantomjs.png</icon>
   		<path>/usr/local/bin/phantomjs</path>
-  		<options>--proxy=localhost:9999 /home/vagrant/phantom-sahi.js</options>
+  		<options>--proxy=localhost:9999 $SAHI_HOME/proxy/phantom-sahi.js</options>
   		<processName>phantomjs</processName>
   		<capacity>100</capacity>
   		<useSystemProxy>false</useSystemProxy>
